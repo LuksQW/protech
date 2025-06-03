@@ -1,0 +1,38 @@
+.fondo-responsivo {
+    background-image: url('img/fondo1.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .video-responsivo {
+    background-image: url('img/videoherramientas.mp4');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+    width: 100%;
+    overflow: hidden;
+  }
+
+
+.button.accordion-button{
+    background-color: rgb(0, 0, 0);
+
+}
+
+.accordion-button.collapsed{
+    color: black;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.header{    
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+}
+
